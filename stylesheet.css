@@ -1,0 +1,49 @@
+h1{
+    font-family: Times;
+    font-size:50px;
+    border-bottom:2px solid grey;
+    
+   }
+   
+img{
+    width:15em;
+    border:7px solid #FFFFFF;
+    float:right;
+    position:relative;
+    margin-top:-93px;
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    margin-right:30px;
+    box-shadow: 0px 0px 5px 5px grey;
+}
+
+.titles{
+    font-weight:bold;
+    font-style:italic;
+    font-family:Arial;
+    font-size:20px;
+    float:left;
+    width:150px;
+    
+  
+   
+}
+
+.subtitle{
+    font-weight:bold;
+    font-size:17px;
+    font-family:Arial;
+     float:left;
+    width:150px;
+}
+
+body{
+    background-color:#FFFFFF;
+}
+
+
+.container{
+    
+    padding: 10px 10px 10px 150px;
+}
