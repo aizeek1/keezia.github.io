@@ -22,20 +22,16 @@ img{
     font-weight:bold;
     font-style:italic;
     font-family:Arial;
-    font-size:20px;
+    width: 140px;
     float:left;
-    width:150px;
-    
-  
-   
+    clear:left;
+    border-right: 4px solid grey;
 }
 
 .subtitle{
     font-weight:bold;
-    font-size:17px;
     font-family:Arial;
-     float:left;
-    width:150px;
+    
 }
 
 body{
@@ -45,5 +41,9 @@ body{
 
 .container{
     
-    padding: 10px 10px 10px 150px;
+    padding: 10px 10px 25px 150px;
+}
+
+div div + div{
+    float:left;
 }
