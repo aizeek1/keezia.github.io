@@ -19,7 +19,7 @@ img{
 }
 
 .titles{
-    font-weight:bold;
+    
     font-style:italic;
     font-family:Arial;
     width: 140px;
@@ -29,9 +29,11 @@ img{
 }
 
 .subtitle{
-    font-weight:bold;
-    font-family:Arial;
     
+    font-family:Arial;
+    float:left;
+    width:600px;
+    padding-left:20px;
 }
 
 body{
@@ -41,9 +43,10 @@ body{
 
 .container{
     
-    padding: 10px 10px 25px 150px;
+    padding: 10px 10px 25px 200px;
 }
 
 div div + div{
     float:left;
+    padding-left:20px;
 }
